@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta name"viewport" content="width=device-width,initial-scale=1">
+<style>
+body{background-color:tomato;font-family:ALGERIAN;}
+input[type-text], input[type password]{
+width:100%;
+padding:12px 20px;
+margin:8px 0;
+display:inline-block;
+border:1px solid #ccc;
+box-sizing:border-box;
+}
+/*set a style for all buttons*/
+button{
+background-color:violet;
+color:slateblue;
+margin:8px 0 4px 0;
+border-style:dotted;
+cursor:pointer;
+width:100%;
+}
+button:hover {
+opacity:0.8;
+}
+</style>
+</head>
+<button 
+onclick="document.getElementById('id01').style.display='block'" style="width:auto;"<h1>Demo:Alert()</h1>
+<script>
+	alert("created by Oluwatimilehin Toriola <p>You are about to create a new account</p>") // display string message
+	alert("Timi-Tory publisher <p>If you have one before,then fill the boxes with your registered info and press login</p>"); // display string message
+	alert("From the managers Desk!"); // display string message  
+	alert(Date()); // display current date
+</script>>login</button>
+<div id="id01" class="modal">
+<form class="modal-content animate"
+action="index.html"method="post">
+</div>
+<div class="container">
+<p><label for="uname"><b>username</b></label>
+<input type="text" placeholder="Enter username"
+name="name"required></p>
+<p><label for="uname"><b>name</b></label>
+<input type="text" placeholder="Enter name"
+name="name"required></p>
+<p><label for="Adress"><b>Adress</b></label>
+<input type="text" placeholder="Enter Adress"
+name="Adress"required></p>
+<p><label for="psw"><b>password</b></label>
+<input type="text" placeholder="Enter password"
+name="psw"required></p>
+<p><label for="confirm password"><b>confirm password</b></label>
+<input type="text" placeholder="Enter password again"
+name="confirm password"required></p>
+<p><label for="Enter Age"><b>Enter Age</b></label>
+<input type="text"placeholder="Enter Age"
+name="Enter Age"required></p>
+<h3>If every information supplied above is correct<a href="dog.html">CLICK ME</a> to continue the sign up</h3>
+<button type="submit">LOGIN</button>
+<p><label>
+<input type="checkbox" checked="checked"
+name="remember">Remember me
+</label></p>
+</div>
+<div class="container"style="background-color"slateblue">
+<button type="button"
+onclick="document.getElementById('id01).style.display='none'" class="cancelbtn"><a href="index.html">cancel</button>
+<span class="psw">forgot<a href="#">password?</a>
+</span>
+</div>
+</form\>
+</div>
+<script>
+var modal=document.getElementById('id01');
+window.onclick=function(event){
+if (event.target==modal){
+modal.style.display="none";
+}
+}
+</script>
+</body>
+</html>
